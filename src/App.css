@@ -1,0 +1,101 @@
+.App {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url('images/sky.jpg');
+}
+
+a { color:white }
+
+#Banner {
+  height: 100px;
+  max-width: 100%;
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.6em;
+  color: white;
+}
+
+h1{
+  position: absolute;
+  left: 1.2%;
+}
+
+#Dropdown-box {
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  width: 15%;
+  left: 5%;
+  background-color: #282828;
+  padding: 3.5%;
+  position: absolute;
+  top: 35%;
+  border-radius: 2%;
+  color: grey;
+  opacity: 0.9;
+}
+
+/* months dropdown */
+select {
+  position: relative;
+  font-family: 'Roberto', sans-serif;
+  width: 80%;
+}
+
+/* navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #282828; */
+  bottom: 0%;
+  position: absolute;
+  opacity: .9;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.constellation-wrapper {
+  height: 600px;
+  width: 700px;
+  background-color: #282828;
+  position: relative;
+  float: right;
+  right: 10%;
+  margin: 1%;
+  border-radius: 2%;
+}
+
+.constellation-info {
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+  font-size: .9em;
+  margin: 4%;
+}
+
+.constellation-image {
+  margin-top: 3%;
+}
+
+img{
+  position: relative;
+  left: 30%;
+}
